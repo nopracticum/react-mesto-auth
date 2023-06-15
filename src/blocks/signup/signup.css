@@ -1,0 +1,10 @@
+.signup {
+	margin: 0 auto;
+	padding-top: 55px;
+	background-color: inherit;
+	max-width: 358px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
