@@ -39,7 +39,7 @@ function App() {
           setCurrentUser(userData);
           setCards(cardsData);
         })
-        .catch((err) => alert(`Возникла ошибка ${err}`));
+        .catch((err) => alert(`Ошибка ${err}`));
     }
   }, [loggedIn]);
 
@@ -59,7 +59,7 @@ function App() {
       })
       .catch((err) => {
         setInfoTooltipOpen(true);
-        console.log(`Возникла ошибка ${err}`);
+        console.log(`Ошибка ${err}`);
       });
   }
 
@@ -91,7 +91,7 @@ function App() {
             setUserEmail(curentUserEmail);
           }
         })
-        .catch((err) => alert(`Возникла ошибка ${err}`));
+        .catch((err) => alert(`Ошибка ${err}`));
     }
   }
 
@@ -200,7 +200,7 @@ function App() {
         />
         <Routes>
           <Route
-            path="/"
+            path="*"
             element={
               loggedIn ? (
                 <Navigate to="/main" />
