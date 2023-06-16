@@ -24,7 +24,7 @@ function EditAvatarPopup({ isOpen, onClose, onUpdateAvatar, isLoading, showLoade
 	return (
 		<PopupWithForm
 			name="userpic"
-			title="Обновить аватар"
+			title="Обновить изображение профиля"
 			isOpen={isOpen}
 			onClose={onClose}
 			onSubmit={handleSubmit}
