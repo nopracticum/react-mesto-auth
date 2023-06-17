@@ -203,7 +203,7 @@ function App() {
             path="*"
             element={
               loggedIn ? (
-                <Navigate to="/main" />
+                <Navigate to="/" />
               ) : (
                 <Navigate to="/sign-in" replace />
               )
@@ -223,7 +223,7 @@ function App() {
             element={<Login handleLogin={handleLogin} buttonText="Войти" />}
           />
           <Route
-            path="/main"
+            path="/"
             element={
               <ProtectedRoute
                 element={Main}

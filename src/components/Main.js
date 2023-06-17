@@ -18,7 +18,7 @@ function Main({
     <main className="main">
       <section className="profile">
         <div className="profile__container">
-          <div className="profile__avatar-container">
+        <div className="profile__edit-avatar">
             <div
               style={{ backgroundImage: `url(${currentUser.avatar})` }}
               className="profile__avatar"
